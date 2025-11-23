@@ -823,7 +823,7 @@ Material,
 Material,
     Wall Insulation,         !- Name
     MediumRough,             !- Roughness
-    0.2,                    !- Thickness {m}
+    @wallInsulationThickness@,                    !- Thickness {m}
     0.05,                    !- Conductivity {W/m-K}
     154,                     !- Density {kg/m3}
     940,                     !- Specific Heat {J/kg-K}
@@ -902,8 +902,8 @@ Material,
 
 WindowMaterial:SimpleGlazingSystem,
     Window,                  !- Name
-    0.75,                     !- U-Factor {W/m2-K}
-    0.3,                     !- Solar Heat Gain Coefficient
+    2.00,                     !- U-Factor {W/m2-K}
+    0.7,                     !- Solar Heat Gain Coefficient
     0.7;                     !- Visible Transmittance
 
 

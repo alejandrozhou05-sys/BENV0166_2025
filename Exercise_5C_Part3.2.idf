@@ -902,7 +902,7 @@ Material,
 
 WindowMaterial:SimpleGlazingSystem,
     Window,                  !- Name
-    0.75,                     !- U-Factor {W/m2-K}
+    0.75,                    !- U-Factor {W/m2-K}
     0.3,                     !- Solar Heat Gain Coefficient
     0.7;                     !- Visible Transmittance
 
